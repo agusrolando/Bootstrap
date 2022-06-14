@@ -1,0 +1,35 @@
+.navbar{
+    background-color: blueviolet;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+}
+
+.btn-outline-success{
+    background-color: white;
+}
+
+.card-img-top{
+    width: 80%;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 60px;
+    
+}
+
+.auti{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
