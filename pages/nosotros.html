@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VentayLogo | Cargar vehiculo</title>
+    <title>VentayLogo | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <header>
@@ -19,19 +22,20 @@
 
               <div class="col-sm-8 col-md-8 col-xl-10 d-flex justify-content-start">
 
-                <a href="../index.html"><h1>Venta y Logo</h1></a>
-
+                <a href="index.html"><h1>Venta y Logo</h1></a>
+                
               </div>
 
               <div class="col-sm-4 col-md-4 col-xl-2 d-flex justify-content-end">
 
-                <a href="registrarse.html"><button type="button" class="btn btn-primary float-end">Registrate</button></a>
-                <a href="ingresa.html"><button type="button" class="btn btn-primary">Ingresar</button></a>
+                <a href="../pages/registrarse.html"><button type="button" class="btn btn-primary float-end">Registrate</button></a>
+                <a href="../pages/ingresa.html"><button type="button" class="btn btn-primary">Ingresar</button></a>
 
               </div>
 
             </div>
             
+  
           </nav>
               
         </div>
@@ -60,7 +64,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Gestoria</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Autos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -97,7 +101,7 @@
               </div>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
-                <button class="btn btn-outline-success " type="submit">Buscar</button>
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
             </div>
 
@@ -110,129 +114,51 @@
     </header>
         
     <section>
+       
+        <div class="info">
+
+            <div class="infor">
+
+                <h2 class="animate__animated animate__bounceInRight">¿Quien creo este sitio?</h2>
+    
+                <p >Fue creado por un emprendedor con ganas de hacer algo diferente, algo que revolucionara el mercado de compra y venta en la web</p>
+
+            </div>
 
 
-      <div class="container">
-      
-        <div class="formulario">
-          <hr>
+            <div class="infor">
 
-          <form class="row g-3 ">
+                <h2 class="animate__animated animate__bounceInRight">¿Cual es el objetivo del sitio?</h2>
+    
+                <p>Este sitio fue creado para que puedas publicar tu interes a la hora de comprar algo.</p>
 
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Vehiculo</label>
-              <select id="inputState" class="form-select">
-                <option selected>Auto</option>
-                <option>Moto</option>
-                <option>Camioneta</option>
-                <option>Camion</option>
-              </select>
-            </div>
-            
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Marca</label>
-              <select id="inputState" class="form-select">
-                <option selected>Chavrolet</option>
-                <option>Fiat</option>
-                <option>Ford</option>
-              </select>
             </div>
 
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Año</label>
-              <select id="inputState" class="form-select">
-                <option selected>2020</option>
-                <option>2021</option>
-                <option>2022</option>
-              </select>
+            <div class="infor">
+
+                <h2 class="animate__animated animate__bounceInRight">¿Como funciona?</h2>
+    
+                <ul>
+                
+                    <li>Primero deberas registrarte. <p>Para ello deberas completar una serie de campos con los siguientes datos:</p>
+                    <ul>
+                        <li>Apellido</li>
+                        <li>Nombre</li>
+                        <li>Mail</li>
+                        <li>Contraseña</li>
+                    </ul>
+                    <br>
+                    </li>
+                    <li>Luego ya podras cargar detallado que es lo que estas buscando, se leccionando diferentes parametros a tener en cuenta.</li>
+    
+                </ul>
+                
+
             </div>
 
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Combustible</label>
-              <select id="inputState" class="form-select">
-                <option selected>Nafta</option>
-                <option>Diesel</option>
-                <option>Nafta/Gas</option>
-              </select>
-            </div>
 
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Color</label>
-              <select id="inputState" class="form-select">
-                <option selected>Rojo</option>
-                <option>Negro</option>
-                <option>Gris</option>
-              </select>
-            </div>
-
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Kilometraje</label>
-              <select id="inputState" class="form-select">
-                <option selected>50000km</option>
-                <option>80000km</option>
-                <option>1000km</option>
-              </select>
-            </div>
-
-            <hr>
-
-            <div>
-              <p>Accesorios</p>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="llantas">
-              <label class="form-check-label" for="llantas">
-                Llantas
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Airbags conductor">
-              <label class="form-check-label" for="Airbags conductor">
-                Airbags conductor
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Sistema de alarma">
-              <label class="form-check-label" for="Sistema de alarma">
-                Sistema de alarna
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Sistema de frenos ABS">
-              <label class="form-check-label" for="Sistema de frenos ABS">
-                Sistema de frenos ABS
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Polarizado">
-              <label class="form-check-label" for="Polarizado">
-                Polarizado
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Pantalla interactiva">
-              <label class="form-check-label" for="Pantalla interactiva">
-                Pantalla interactiva
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="Faros antiniebla delanteros">
-              <label class="form-check-label" for="Faros antiniebla delanteros">
-                Faros antiniebla delanteros
-              </label>
-            </div>
-          
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Crear usuario</button>
-            </div>
-
-            <hr>
-
-          </form>
-          
         </div>
-
-      </div>
+        
 
     </section>
 
