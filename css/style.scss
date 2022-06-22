@@ -1,0 +1,66 @@
+@import "colores";
+
+.navbar{
+    background-color: $colorgeneral;
+}
+
+
+h1{
+    text-align: center;
+    transform: translate(15px);
+}
+
+
+.card-img-top{
+    width: 80%;
+}
+
+footer{
+    background-color: $colorgeneral;
+    height: 60px;
+    
+}
+
+.auti{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    padding: 20px;
+    margin: 20px;
+}
+
+.infor{
+    border-radius: 5px;
+    transition: all 2;
+    &:hover {
+        background-color: rgb(200, 194, 204);
+    }
+    
+}
+
+.btn-primary{
+    background-color: $colorgeneral;
+}
+
+.btn-outline-success{
+    background-color: white;
+    &:hover {
+        background-color: rgb(35, 100, 179);
+    }
+}
+
+ul{
+    li{
+        color: $colorgeneral;
+    }
+}
+
+p{
+    color: $colorgeneral;
+}

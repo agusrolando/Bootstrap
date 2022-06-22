@@ -1,54 +1,63 @@
-.navbar{
-    background-color: blueviolet;
+.navbar {
+  background-color: blueviolet;
 }
 
-
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  -webkit-transform: translate(15px);
+          transform: translate(15px);
 }
 
-.btn-primary{
-    background-color: blueviolet;
+.card-img-top {
+  width: 80%;
 }
 
-.btn-outline-success{
-    background-color: white;
+footer {
+  background-color: blueviolet;
+  height: 60px;
 }
 
-.card-img-top{
-    width: 80%;
+.auti {
+  margin-top: 100px;
 }
 
-footer{
-    background-color: blueviolet;
-    height: 60px;
-    
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.auti{
-    margin-top: 100px;
+.info {
+  padding: 20px;
+  margin: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+.infor {
+  border-radius: 5px;
+  -webkit-transition: all 2;
+  transition: all 2;
 }
 
-.info{
-    padding: 20px;
-    margin: 20px;
+.infor:hover {
+  background-color: #c8c2cc;
 }
 
-h1{
-    transform: translate(15px);
+.btn-primary {
+  background-color: blueviolet;
 }
 
-.infor{
-    border-radius: 5px;
-    transition: all 2;
-    
+.btn-outline-success {
+  background-color: white;
 }
 
-.infor:hover{
-background-color: rgb(200, 194, 204);
+.btn-outline-success:hover {
+  background-color: #2364b3;
 }
+
+ul li {
+  color: blueviolet;
+}
+
+p {
+  color: blueviolet;
+}
+/*# sourceMappingURL=style.css.map */
