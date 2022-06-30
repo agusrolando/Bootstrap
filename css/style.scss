@@ -1,4 +1,7 @@
-@import "colores";
+@import "utilities/colores";
+@import "utilities/medidas";
+@import "utilities/mixin";
+@import "utilities/map";
 
 .navbar{
     background-color: $colorgeneral;
@@ -31,8 +34,14 @@ a{
 }
 
 .info{
+    @include flexi;
     padding: 20px;
     margin: 20px;
+}
+
+.sub{
+    @include subrayado (rgb(201, 170, 210), 40px);
+
 }
 
 .infor{
@@ -46,12 +55,16 @@ a{
 
 .btn-primary{
     background-color: $colorgeneral;
+    &:hover {
+        background-color: $colorbotones-hover;
+    }
+
 }
 
 .btn-outline-success{
     background-color: white;
     &:hover {
-        background-color: rgb(35, 100, 179);
+        background-color: $colorbotones-hover;
     }
 }
 
@@ -63,4 +76,22 @@ ul{
 
 p{
     color: $colorgeneral;
+}
+
+.parra{ 
+    background-color: aqua;
+    width: ($parrafos * 5) + 100;
+}
+
+.dis {
+    background-color: map-get($estilo, color);
+    text-align: map-get($estilo, centro);
+    padding: map-get($estilo, pad);
+}
+
+@each $bot, $color in $botones {
+    .btn--#{$bot}{
+        background-color: $color;
+    }
+    
 }

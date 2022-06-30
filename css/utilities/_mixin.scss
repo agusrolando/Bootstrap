@@ -1,0 +1,9 @@
+@mixin flexi{
+    display:flex;
+    flex-direction:column;
+}
+
+@mixin subrayado ($color, $style) {
+    background-color: $color;
+    font-size: $style;
+}
